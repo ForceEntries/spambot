@@ -31,7 +31,7 @@ for (const token of config.botToken) {
       const args = message.content.slice(prefix.length).trim().split(/ +/g);
       const command = args.shift().toLowerCase();
   
-      if (command === "spam") {
+      if (command === "waduh") {
         function sendSpamMessage() {
           // You could modify this to send a random string from an array (ex. a quote), create a
           // random sentence by pulling words from a dictionary file, or to just send a random
