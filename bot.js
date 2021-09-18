@@ -41,7 +41,7 @@ for (const token of config.botToken) {
           if (content) {
             message.channel.send(content);
           } else {
-            message.channel.send("This is spam message #" + count);
+            message.channel.send("Semangat ngepush og nya bang");
           }
           
           if (count < maxMessages) {
